@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquise Williams - Professional TaskRabbit Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #5D4037; /* Brown */
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: #388E3C 3px solid; /* Green */
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .save-message {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .button {
+            display: inline-block;
+            background: #388E3C; /* Green */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            position: relative;
+            z-index: 1;
+            margin-left: 10px;
+        }
+        .button:hover {
+            background: #2e7031; /* Darker green */
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            left: 110%;
+            transform: translateY(-50%);
+            font-size: 1.5em;
+            color: #388E3C;
+            animation: moveArrow 1s infinite;
+        }
+        @keyframes moveArrow {
+            0%, 100% { transform: translateY(-50%) translateX(0); }
+            50% { transform: translateY(-50%) translateX(5px); }
+        }
+        .hero {
+            background: url('images/marquise_headshot.jpeg') no-repeat center center;
+            background-size: contain;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .about, .services, .gallery, .testimonials, .cta {
+            padding: 20px 0;
+            text-align: center;
+        }
+        .gallery img {
+            max-width: 200px;
+            margin: 10px;
+        }
+        .testimonial {
+            background: #e0e0e0;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .testimonial img {
+            max-width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .testimonial-content {
+            display: flex;
+            align-items: center;
+        }
+        h2 {
+            color: #388E3C; /* Green */
+        }
+        .customer-reviews img {
+            max-width: 400px; /* Twice the size of the other images */
+            margin: 20px 0;
+        }
+        .slogan {
+            background: #388E3C; /* Green */
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        footer {
+            background: #5D4037; /* Brown */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Marquise Williams</h1>
+                <div class="button-container">
+                    <div class="save-message">Save $10 on your first task!</div>
+                    <a href="https://www.taskrabbit.com/profile/marquise-w--2" class="button">Book Now</a>
+                    <span class="arrow">&#x2192;</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero"></section>
+
+    <section class="slogan container">
+        Expert Trash & Furniture Removal Services - Reliable, Efficient, Professional
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Marquise, a dedicated and experienced TaskRabbit professional based in New York City. As a New Yorker with a background in construction, my journey in the service industry started from a simple desire to help people with their day-to-day tasks, and it has grown into a passion for providing reliable and efficient services. Specializing in trash and furniture removal, I am known for my punctuality, attention to detail, and friendly demeanor. When I'm not working, I enjoy reading, investments, sports, and music, which keep me grounded and motivated. My goal is to make your life easier by taking care of the heavy lifting and moving tasks, so you can focus on what truly matters to you. Let's make your next move or cleanup stress-free and efficient together!</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <ul>
+                <li>Trash Removal</li>
+                <li>Furniture Removal</li>
+                <li>Heavy Lifting</li>
+                <li>Moving Assistance</li>
+                <li>Furniture Assembly and Disassembly</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Work Gallery</h2>
+            <img src="images/marquise_standing.jpeg" alt="Marquise at work">
+            <img src="images/marquise_with_customers.jpeg" alt="Marquise with satisfied clients">
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container customer-reviews">
+            <h2>What Clients Say</h2>
+            <img src="images/reviews.jpeg" alt="Customer Reviews">
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Book my services on TaskRabbit and get $10 off your first task!</p>
+            <a href="https://www.taskrabbit.com/profile/marquise-w--2" class="button">Book Now on TaskRabbit</a>
+            <p>Use referral code: TSKDO8NR for your discount</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Marquise Williams TaskRabbit Services. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
